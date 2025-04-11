@@ -120,11 +120,11 @@ public class trieDemo {
                     }
                     break;
                 case 5:
-                    System.out.println("Exiting... Goodbye!");
+                    System.out.println("Exiting");
                     scanner.close();
                     return;
                 default:
-                    System.out.println("Invalid choice! Try again.");
+                    System.out.println("Invalid choice");
             }
         }
     }
